@@ -22,6 +22,10 @@ export default {
         'mainCOlorDark-3': '#e2e8f0',
         'mainFontColorDark': '#d6d3d1',
       },
+      boxShadow: {
+        'b': '0 2px 6px -4px rgba(0, 0, 0, 0.7)',
+
+      },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
       }
