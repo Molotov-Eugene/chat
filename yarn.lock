@@ -213,11 +213,11 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.22.15":
-  version: 7.22.15
-  resolution: "@babel/parser@npm:7.22.15"
+  version: 7.22.16
+  resolution: "@babel/parser@npm:7.22.16"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 7431c1ab445cf2b6e8acb2d7acc60d9d7c25728c7649ae16732590834002786bea10b54ab1936ae0784b0e7d080efe9fd4bf17c4534b6eb36d09c75a85253ef9
+  checksum: 944c756b5bdeb07b9fec16ecef6b3c61aff9d4c4b924abadcf01afa1840a740b8e2357ae00482b5b37daad6d2bfd848c947f27ad65138d687b6fdc924bc59edd
   languageName: node
   linkType: hard
 
@@ -1058,14 +1058,14 @@ __metadata:
   linkType: hard
 
 "array.prototype.flat@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "array.prototype.flat@npm:1.3.1"
+  version: 1.3.2
+  resolution: "array.prototype.flat@npm:1.3.2"
   dependencies:
     call-bind: ^1.0.2
-    define-properties: ^1.1.4
-    es-abstract: ^1.20.4
+    define-properties: ^1.2.0
+    es-abstract: ^1.22.1
     es-shim-unscopables: ^1.0.0
-  checksum: 5a8415949df79bf6e01afd7e8839bbde5a3581300e8ad5d8449dea52639e9e59b26a467665622783697917b43bf39940a6e621877c7dd9b3d1c1f97484b9b88b
+  checksum: 5d6b4bf102065fb3f43764bfff6feb3295d372ce89591e6005df3d0ce388527a9f03c909af6f2a973969a4d178ab232ffc9236654149173e0e187ec3a1a6b87b
   languageName: node
   linkType: hard
 
@@ -1095,16 +1095,17 @@ __metadata:
   linkType: hard
 
 "arraybuffer.prototype.slice@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "arraybuffer.prototype.slice@npm:1.0.1"
+  version: 1.0.2
+  resolution: "arraybuffer.prototype.slice@npm:1.0.2"
   dependencies:
     array-buffer-byte-length: ^1.0.0
     call-bind: ^1.0.2
     define-properties: ^1.2.0
+    es-abstract: ^1.22.1
     get-intrinsic: ^1.2.1
     is-array-buffer: ^3.0.2
     is-shared-array-buffer: ^1.0.2
-  checksum: e3e9b2a3e988ebfeddce4c7e8f69df730c9e48cb04b0d40ff0874ce3d86b3d1339dd520ffde5e39c02610bc172ecfbd4bc93324b1cabd9554c44a56b131ce0ce
+  checksum: c200faf437786f5b2c80d4564ff5481c886a16dee642ef02abdc7306c7edd523d1f01d1dd12b769c7eb42ac9bc53874510db19a92a2c035c0f6696172aafa5d3
   languageName: node
   linkType: hard
 
@@ -1322,9 +1323,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001517, caniuse-lite@npm:^1.0.30001520":
-  version: 1.0.30001525
-  resolution: "caniuse-lite@npm:1.0.30001525"
-  checksum: a0d190c185b8e1220dbc72e42f310633059aa175ca3396eb781b249ac3da6c62b30cb8efc5fa24d632cb938f58d90b0c7772d1c9942b6643cf418c27c2cb8632
+  version: 1.0.30001527
+  resolution: "caniuse-lite@npm:1.0.30001527"
+  checksum: 7ad99d78d1a30d494471c8a9ead3fc40a816ee61b16fef330bba5bdae5d7ebaa965becc8cd09c7aa6240125ce790a5213a40cd240ceaa211508744ed86b79783
   languageName: node
   linkType: hard
 
@@ -2950,11 +2951,11 @@ __metadata:
   linkType: hard
 
 "i18next@npm:^23.4.6":
-  version: 23.4.6
-  resolution: "i18next@npm:23.4.6"
+  version: 23.4.9
+  resolution: "i18next@npm:23.4.9"
   dependencies:
     "@babel/runtime": ^7.22.5
-  checksum: ffc63889e28b2bfce2c6e635bd686087290fe2e2f58e0a235525011bb74d541ff681895abe994b12546be6c92b66a7cc3002a13c26e587b4da8c89b15ef648db
+  checksum: 46ac2415dc817c0e25e1c5e64332249825cd63b5fb9a5d42e3a2329d4ecd098c0f15a243f56b53e03db02e2e9931ca9bb4447370b2436f9ad6556de40ce981cf
   languageName: node
   linkType: hard
 
@@ -4686,8 +4687,8 @@ __metadata:
   linkType: hard
 
 "rollup@npm:^3.27.1":
-  version: 3.28.1
-  resolution: "rollup@npm:3.28.1"
+  version: 3.29.0
+  resolution: "rollup@npm:3.29.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -4695,7 +4696,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 1fcab0929c16130218447c76c19b56ccc0e677110552462297e3679188fc70185a6ec418cef8ce138ec9fb78fd5188537a3f5d28762788e8c88b12a7fb8ba0fb
+  checksum: 77124a606f44c065dce95b615cd0c9955e1a12f67a30ad28c1128438d5080535b0f028d0edef9dda576ebe8806bdc48aff990198334978738da9716fe9677d72
   languageName: node
   linkType: hard
 
@@ -4709,14 +4710,14 @@ __metadata:
   linkType: hard
 
 "safe-array-concat@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "safe-array-concat@npm:1.0.0"
+  version: 1.0.1
+  resolution: "safe-array-concat@npm:1.0.1"
   dependencies:
     call-bind: ^1.0.2
-    get-intrinsic: ^1.2.0
+    get-intrinsic: ^1.2.1
     has-symbols: ^1.0.3
     isarray: ^2.0.5
-  checksum: f43cb98fe3b566327d0c09284de2b15fb85ae964a89495c1b1a5d50c7c8ed484190f4e5e71aacc167e16231940079b326f2c0807aea633d47cc7322f40a6b57f
+  checksum: 001ecf1d8af398251cbfabaf30ed66e3855127fbceee178179524b24160b49d15442f94ed6c0db0b2e796da76bb05b73bf3cc241490ec9c2b741b41d33058581
   languageName: node
   linkType: hard
 
@@ -5043,13 +5044,13 @@ __metadata:
   linkType: hard
 
 "string.prototype.trimstart@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "string.prototype.trimstart@npm:1.0.6"
+  version: 1.0.7
+  resolution: "string.prototype.trimstart@npm:1.0.7"
   dependencies:
     call-bind: ^1.0.2
-    define-properties: ^1.1.4
-    es-abstract: ^1.20.4
-  checksum: 89080feef416621e6ef1279588994305477a7a91648d9436490d56010a1f7adc39167cddac7ce0b9884b8cdbef086987c4dcb2960209f2af8bac0d23ceff4f41
+    define-properties: ^1.2.0
+    es-abstract: ^1.22.1
+  checksum: 13d0c2cb0d5ff9e926fa0bec559158b062eed2b68cd5be777ffba782c96b2b492944e47057274e064549b94dd27cf81f48b27a31fee8af5b574cff253e7eb613
   languageName: node
   linkType: hard
 
@@ -5164,8 +5165,8 @@ __metadata:
   linkType: hard
 
 "tar@npm:^6.1.11, tar@npm:^6.1.2":
-  version: 6.1.15
-  resolution: "tar@npm:6.1.15"
+  version: 6.2.0
+  resolution: "tar@npm:6.2.0"
   dependencies:
     chownr: ^2.0.0
     fs-minipass: ^2.0.0
@@ -5173,7 +5174,7 @@ __metadata:
     minizlib: ^2.1.1
     mkdirp: ^1.0.3
     yallist: ^4.0.0
-  checksum: f23832fceeba7578bf31907aac744ae21e74a66f4a17a9e94507acf460e48f6db598c7023882db33bab75b80e027c21f276d405e4a0322d58f51c7088d428268
+  checksum: db4d9fe74a2082c3a5016630092c54c8375ff3b280186938cfd104f2e089c4fd9bad58688ef6be9cf186a889671bf355c7cda38f09bbf60604b281715ca57f5c
   languageName: node
   linkType: hard
 
