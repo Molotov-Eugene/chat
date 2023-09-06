@@ -14,3 +14,5 @@ develop:
 yarn start #backend server
 yarn dev #frontend
 ```
+
+[Link to project](https://chat-production-1c1a.up.railway.app/)
