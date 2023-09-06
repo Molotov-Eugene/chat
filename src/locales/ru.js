@@ -24,7 +24,7 @@ const ru = {
     duplicate: 'Канал с таким именем уже существует',
     chatLogo: 'Hexlet Chat',
     loading: 'Загрузка...',
-    exitButton: 'Выйти',
+    logOut: 'Выйти',
     channels: 'Каналы',
     channelControl: 'Управление каналом',
     general: '#general',

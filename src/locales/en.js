@@ -23,7 +23,7 @@ const en = {
     max: 'From 3 to 20 characters',
     duplicate: 'A channel with the same name already exist',
     loading: 'Loading...',
-    exitButton: 'Exit',
+    logOut: 'Log Out',
     channels: 'Channels',
     channelControl: 'Channel control',
     general: '#general',

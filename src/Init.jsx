@@ -2,7 +2,8 @@ import React from 'react';
 import { RouterProvider } from 'react-router-dom';
 import i18n from 'i18next';
 import { I18nextProvider, useTranslation, initReactI18next } from "react-i18next";
-import router from './pages/main'
+import router from './pages/router'
+import AuthProvider from './context/AuthProvider';
 
 import resources from './locales/index';
 
@@ -16,16 +17,17 @@ i18n
     fallbacklng: 'en',
   });
 
-
 function Init() {
   const { t } = useTranslation();
 
   return (
     <>
-      <I18nextProvider i18n={i18n}>
-        <RouterProvider router={router}>
-        </RouterProvider>
-      </I18nextProvider>
+      <AuthProvider>
+        <I18nextProvider i18n={i18n}>
+          <RouterProvider router={router}>
+          </RouterProvider>
+        </I18nextProvider>
+      </AuthProvider>
     </>
   )
 }
