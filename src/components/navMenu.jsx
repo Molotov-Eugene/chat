@@ -60,8 +60,8 @@ export default function() {
           </div>
         </nav>
       </header>
-      <main>
-        <div className='flex p-2 content-center justify-center'>
+      <main className='h-[calc(100vh-56px)] w-full'>
+        <div className='flex h-full w-full content-center justify-center'>
           {authData.isLogged ? <Chat /> : <Outlet />}
         </div>
       </main>
