@@ -9,7 +9,8 @@
     "build": "vite build",
     "start": "start-server -s ./dist/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "start-server -s ./dist/",
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
